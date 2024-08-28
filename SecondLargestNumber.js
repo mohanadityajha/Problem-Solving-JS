@@ -5,7 +5,7 @@ function findSecondLargestNumber(arr) {
 
     if (arr[i] > firstLargestNumber) {
       secondLargestNumber = firstLargestNumber
-      firstLargestNumber = arr[i]
+     firstLargestNumber  = arr[i]
 
     } else if (arr[i] > secondLargestNumber && arr[i] < firstLargestNumber) { 
 
